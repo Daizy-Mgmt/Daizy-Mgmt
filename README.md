@@ -39,22 +39,24 @@
 
 ## 🚀 Featured Analytics Projects
 
-### 📦 [Project 1: Olist E-Commerce Delivery SLA Analytics & Customer Retention](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics)
-> **End-to-End PostgreSQL Star Schema · 10 Production Power BI DAX Measures · Interactive Web Dashboard · Executive Strategy Playbook**
+### 📦 [Project 1: Olist Commercial Operations, Delivery SLA & Retention Decision Suite](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics)
+> **PostgreSQL 15 Star Schema · 10 Reconciled Power BI DAX Measures · Interactive SLA & P&L Sensitivity Simulator · Formal BA/TPM BRD & RACI**
 
-* **The Business Problem:** E-commerce marketplaces spend heavily acquiring customers, but delivery breaches quietly destroy buyer lifetime value. Analyzed **99,441 Brazilian marketplace orders ($13.59M GMV)** across 2016–2018 to pinpoint where operations should intervene first.
+[![Executive Dashboard Preview](https://raw.githubusercontent.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/main/docs/images/executive_dashboard_preview.svg)](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics)
+
+* **The Business Problem:** E-commerce marketplaces spend heavily acquiring buyers, but unmonitored delivery breaches erode customer ratings and inflate support costs. Modeled **99,441 Brazilian marketplace orders ($13,591,643.70 GMV)** across 2016–2018 into an executive SLA decision engine.
 * **The 4 Headline Discoveries:**
-  1. **The 8-Day Satisfaction Cliff:** Deliveries on time maintain **4.29 ★** average review score. Delays exceeding 8 days trigger complete satisfaction collapse: **79.3% negative (1–2 star) reviews** with average rating crashing to **1.70 / 5.0 ★**.
-  2. **Extreme Bottleneck Concentration (Pareto):** Late orders are not systemic carrier failures—**10% of active sellers drive 52.5% of all late delivery items**. Managing ~68 bottleneck sellers resolves over half of all delivery breaches.
-  3. **First-Purchase Churn Multiplier:** Delays on a buyer's initial purchase are associated with a **~44% relative drop in repeat purchase rate** (1.82% vs. 3.40%).
-  4. **Regional Transit Disparities:** Remote Northern states (MA, CE, PA, BA) average 19–24 transit days with Maranhão (MA) falling to 82.6% on-time fulfillment, vs. 8–11 days in São Paulo.
+  1. **The 8-Day Satisfaction Cliff:** Deliveries on time maintain **4.29 ★** average review score (`9.3%` negative). Delays exceeding 8 days trigger complete satisfaction collapse: **79.3% negative (1–2 star) reviews** with average rating crashing to **1.70 / 5.0 ★**.
+  2. **Extreme Bottleneck Concentration (Pareto 80/20):** Late orders are not systemic carrier failures—**10% of active sellers (68 of 682 merchants) drive 52.5% of all late delivery items**. Enforcing SLA gates on Quintile 5 sellers (`19.4%` avg late rate) resolves over half of all delivery breaches.
+  3. **Cohort Base-Rate Nuance:** While 1–7 day delays on a buyer's initial purchase reduce repeat buying by **22.6% relative (`3.40% ➔ 2.63%`)**, Olist's overall repeat baseline is structurally **3.12% (96.88% one-time buyers)**—meaning the primary commercial cost of 8+ day delays is the **79.3% 1–2★ review spike** poisoning product conversion and CS ticket volume.
+  4. **Regional Corridor Disparities:** Remote Northern/Northeastern states (`MA`, `CE`, `BA`, `PA`) average 19.3–23.7 transit days with Maranhão (`MA`) falling to **82.57% on-time fulfillment**, vs. **95.51%** (`8.7` days) in São Paulo.
 * **Tech Stack:** Power BI, DAX, PostgreSQL 15 (Docker), SQL CTEs & Window Functions (`LAG`, `RANK`, `NTILE`, `PERCENTILE_CONT`), Star Schema Marts, Python (Pandas, Plotly, Streamlit).
 * **Deliverables:**
-  * 🌐 **[Live Interactive Web Dashboard](https://daisy-olist-analytics.streamlit.app)**
+  * 📋 **[BA/TPM Business Requirements Document (BRD, User Stories, Gherkin UAT, RACI)](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/blob/main/docs/brd_seller_sla_governance.md)**
   * 📑 **[Executive Strategy Memo (`docs/memo.md`)](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/blob/main/docs/memo.md)**
   * 📊 **[Power BI Build Blueprint & 10-Measure DAX Library](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/blob/main/powerbi/POWERBI_BUILD_GUIDE.md)**
   * 🔍 **[SQL-to-Power BI Financial Reconciliation (`$13,591,643.70` Exact Match)](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/blob/main/docs/reconciliation.md)**
-  * 🔗 **[Full GitHub Codebase](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics)**
+  * 🔗 **[Full GitHub Codebase & 5-Module Streamlit Decision Suite (`app.py`)](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics)**
 
 ---
 

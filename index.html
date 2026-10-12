@@ -224,19 +224,23 @@
     <!-- Project 1 Card -->
     <div class="rounded-3xl bg-white border border-slate-200 p-8 md:p-10 shadow-sm hover:shadow-md transition mb-8">
       <div class="flex flex-wrap items-center gap-2 mb-4">
-        <span class="px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold border border-emerald-200">COMPLETED & VERIFIED</span>
+        <span class="px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold border border-emerald-200">PRODUCTION VERIFIED</span>
         <span class="px-3 py-1 rounded-full bg-amber-50 text-amber-700 text-xs font-bold border border-amber-200">Power BI & 10 DAX Measures</span>
         <span class="px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200">PostgreSQL 15 Star Schema</span>
-        <span class="px-3 py-1 rounded-full bg-rose-50 text-rose-700 text-xs font-bold border border-rose-200">Streamlit Cloud</span>
+        <span class="px-3 py-1 rounded-full bg-purple-50 text-purple-700 text-xs font-bold border border-purple-200">SLA ROI Simulator & BRD</span>
       </div>
 
       <h3 class="text-2xl font-bold text-slate-900 mb-3">
-        Olist Brazilian E-Commerce: Delivery SLA Analytics & Customer Retention
+        Olist Commercial Operations, Delivery SLA & Retention Decision Suite
       </h3>
       
       <p class="text-slate-600 leading-relaxed mb-6">
-        Designed an end-to-end analytical data mart and Power BI reporting suite analyzing 99,441 marketplace orders ($13.59M GMV). Discovered the 8-day satisfaction cliff, confirmed the 80/20 Pareto bottleneck concentration among sellers, and drafted an executive playbook for logistics operations leadership.
+        Designed an end-to-end PostgreSQL Star Schema data mart, Power BI DAX suite, and 5-module interactive decision engine analyzing 99,441 marketplace orders ($13.59M GMV). Quantified the 8-day satisfaction cliff, proved the 80/20 Pareto bottleneck concentration among sellers, built an interactive P&L sensitivity simulator, and authored a formal BA/TPM Business Requirements Document (BRD).
       </p>
+
+      <div class="mb-6 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+        <img src="https://raw.githubusercontent.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/main/docs/images/executive_dashboard_preview.svg" alt="Olist Executive Dashboard Preview" class="w-full h-auto">
+      </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
         <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
@@ -244,15 +248,19 @@
           <p class="text-xs text-slate-600">Star-Schema dimensional model (`fact_orders`, `fact_order_items`, 4 dimensions), SQL CTEs & window functions (`LAG`, `RANK`, `NTILE`, `PERCENTILE_CONT`), and 10 production Power BI DAX measures reconciled with zero variance ($13,591,643.70 exact match).</p>
         </div>
         <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
-          <div class="font-bold text-sm text-slate-800 mb-1"><i class="fas fa-lightbulb text-amber-500 mr-2"></i>Business Analysis & Recommendations</div>
-          <p class="text-xs text-slate-600">Produced a 4-part operational recommendation memo: Tiered seller SLA gating for Quintile 5 sellers (10% of sellers drive 52.5% of late items), dynamic EDD buffers for Northern corridors, and automated 15% retention vouchers.</p>
+          <div class="font-bold text-sm text-slate-800 mb-1"><i class="fas fa-lightbulb text-amber-500 mr-2"></i>Commercial Simulator & BA Governance</div>
+          <p class="text-xs text-slate-600">Includes an interactive Deal-Desk SLA & P&L Sensitivity Simulator, 1-click CSV export of the 68 bottleneck sellers, and a complete BRD (`brd_seller_sla_governance.md`) with Agile User Stories, Gherkin UAT, and a RACI matrix.</p>
         </div>
       </div>
 
       <div class="flex flex-wrap gap-3">
-        <a href="https://daisy-olist-analytics.streamlit.app" target="_blank" class="px-5 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs transition flex items-center space-x-2">
-          <i class="fas fa-external-link-alt"></i>
-          <span>Live Interactive Dashboard</span>
+        <a href="https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics" target="_blank" class="px-5 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs transition flex items-center space-x-2">
+          <i class="fab fa-github"></i>
+          <span>Explore Full Repository & Code</span>
+        </a>
+        <a href="https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/blob/main/docs/brd_seller_sla_governance.md" target="_blank" class="px-5 py-2.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold text-xs transition flex items-center space-x-2">
+          <i class="fas fa-clipboard-check"></i>
+          <span>BA/TPM BRD & RACI Spec</span>
         </a>
         <a href="https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/blob/main/docs/memo.md" target="_blank" class="px-5 py-2.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold text-xs transition flex items-center space-x-2">
           <i class="fas fa-file-alt"></i>
@@ -261,10 +269,6 @@
         <a href="https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/blob/main/powerbi/POWERBI_BUILD_GUIDE.md" target="_blank" class="px-5 py-2.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold text-xs transition flex items-center space-x-2">
           <i class="fas fa-chart-pie"></i>
           <span>Power BI Build Blueprint & DAX</span>
-        </a>
-        <a href="https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics" target="_blank" class="px-5 py-2.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold text-xs transition flex items-center space-x-2">
-          <i class="fab fa-github"></i>
-          <span>GitHub Repository</span>
         </a>
       </div>
     </div>
