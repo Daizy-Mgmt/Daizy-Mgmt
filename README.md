@@ -40,9 +40,10 @@
 ## 🚀 Featured Analytics Projects
 
 ### 📦 [Project 1: Olist Commercial Operations, Delivery SLA & Retention Decision Suite](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics)
-> **PostgreSQL 15 Star Schema · 10 Reconciled Power BI DAX Measures · Interactive SLA & P&L Sensitivity Simulator · Formal BA/TPM BRD & RACI**
+> **PostgreSQL 15 Star Schema · 14 Power BI DAX Measures · Multi-Lever SLA & Breakeven Simulator · Formal BA/TPM BRD & RACI**
 
-[![Executive Dashboard Preview](https://raw.githubusercontent.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/main/docs/images/executive_dashboard_preview.svg)](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics)
+[![Executive Dashboard Preview](https://raw.githubusercontent.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/main/docs/images/executive_dashboard_preview.png)](https://daisy-olist-analytics.streamlit.app)
+[![Multi-Lever SLA Breakeven Simulator](https://raw.githubusercontent.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/main/docs/images/sla_simulator_preview.png)](https://daisy-olist-analytics.streamlit.app)
 
 * **The Business Problem:** E-commerce marketplaces spend heavily acquiring buyers, but unmonitored delivery breaches erode customer ratings and inflate support costs. Modeled **99,441 Brazilian marketplace orders ($13,591,643.70 GMV)** across 2016–2018 into an executive SLA decision engine.
 * **The 4 Headline Discoveries:**
@@ -52,11 +53,12 @@
   4. **Regional Corridor Disparities:** Remote Northern/Northeastern states (`MA`, `CE`, `BA`, `PA`) average 19.3–23.7 transit days with Maranhão (`MA`) falling to **82.57% on-time fulfillment**, vs. **95.51%** (`8.7` days) in São Paulo.
 * **Tech Stack:** Power BI, DAX, PostgreSQL 15 (Docker), SQL CTEs & Window Functions (`LAG`, `RANK`, `NTILE`, `PERCENTILE_CONT`), Star Schema Marts, Python (Pandas, Plotly, Streamlit).
 * **Deliverables:**
+  * 🌐 **[Live Interactive 5-Module Decision Suite (`daisy-olist-analytics.streamlit.app`)](https://daisy-olist-analytics.streamlit.app)**
   * 📋 **[BA/TPM Business Requirements Document (BRD, User Stories, Gherkin UAT, RACI)](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/blob/main/docs/brd_seller_sla_governance.md)**
   * 📑 **[Executive Strategy Memo (`docs/memo.md`)](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/blob/main/docs/memo.md)**
-  * 📊 **[Power BI Build Blueprint & 10-Measure DAX Library](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/blob/main/powerbi/POWERBI_BUILD_GUIDE.md)**
+  * 📊 **[Power BI Enterprise Theme JSON, Blueprint & DAX Library](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/blob/main/powerbi/POWERBI_BUILD_GUIDE.md)**
   * 🔍 **[SQL-to-Power BI Financial Reconciliation (`$13,591,643.70` Exact Match)](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/blob/main/docs/reconciliation.md)**
-  * 🔗 **[Full GitHub Codebase & 5-Module Streamlit Decision Suite (`app.py`)](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics)**
+  * 🔗 **[Full GitHub Codebase](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics)**
 
 ---
 
