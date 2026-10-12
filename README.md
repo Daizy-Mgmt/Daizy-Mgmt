@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hi, I'm Daisy Phukan 👋
-### Technical Project Manager $|$ Business Intelligence (BI) & Business Analyst (BA)
+### Technical Project Manager $|$ Business Intelligence $|$ Business Analysis
 **Bengaluru, India** · [LinkedIn](https://linkedin.com/in/daisy-phukan-a401a4228) · [daisyphukan.work@gmail.com](mailto:daisyphukan.work@gmail.com) · [Portfolio Website](https://daizy-mgmt.github.io/Daizy-Mgmt/)
 
 [![Power BI](https://img.shields.io/badge/Power%20BI-DAX%20%26%20Star%20Schema%20(PL--300)-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://github.com/Daizy-Mgmt/olist-delivery-satisfaction-analytics/blob/main/powerbi/POWERBI_BUILD_GUIDE.md)
